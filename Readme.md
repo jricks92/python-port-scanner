@@ -1,6 +1,5 @@
-==================================
-	PORT SCANNER README
-==================================
+PORT SCANNER README
+-----------------------
 
 By Jameson Ricks
 
@@ -30,6 +29,6 @@ Arguments:
 Example: scanner.py -hosts 10.0.1.1, 192.168.0.100 -p 22,80,443,500-100 -w results.html
 
 A traceroute can also be performed with -t, --traceroute, or --tracert and specifying
-a hostname or IP address. 
+a hostname or IP address.
 
 Example: scanner.py --traceroute google.com
